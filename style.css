@@ -112,3 +112,17 @@ nav ul li a
 {
     border: 3px solid red;
 }
+.banner
+{
+    font-weight: 600;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.top-footer-contactus
+{
+    margin: auto;
+}
+.top-footer-nav
+{
+    margin: 5px;
+}
