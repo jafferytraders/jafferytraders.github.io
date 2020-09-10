@@ -91,30 +91,30 @@
         <div class="container content">
             <div class="row">
                 <div class="col-md-6 p-3">
-                    <form action="">
+                    <form method="post" action="mailto:jafferytraders@gmail.com" enctype="text/plain">
                         <div class="form-row p-2">
                             <div class="form_group col-md-6">
-                                <input type="text" class="form-control" placeholder="Full name">
+                                <input type="text" class="form-control" placeholder="Full name" name="name">
                             </div>
                         </div>
                         <div class="form-row p-2">
                             <div class="form_group col-md-6">
-                                <input type="text" class="form-control" placeholder="Email Address">
+                                <input type="text" class="form-control" placeholder="Email Address" name="email">
                             </div>
                         </div>
                         <div class="form-row p-2">
                             <div class="form_group col-md-6">
-                                <input type="number" class="form-control" placeholder="Contact Number">
+                                <input type="tel" class="form-control" placeholder="Contact Number" name="phone">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form_group col-md-12 p-2">
-                                <input type="text" class="form-control" placeholder="Subject">
+                                <input type="text" class="form-control" placeholder="Subject" name="subject">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form_group col-md-12 p-2">
-                                <textarea class="form-control" rows="5"></textarea>
+                                <textarea class="form-control" rows="5" name="message"></textarea>
                             </div>
                         </div>
                         <div class="form-row">
@@ -142,7 +142,7 @@
             </div>
         </div>
     </section>
-    <footer class="full-footer ">
+    <footer class="full-footer fixed-bottom">
         <div class="container-fluid top-footer">
             <div class="row">
                 <div class="col-md-3 text-center">
